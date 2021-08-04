@@ -1,0 +1,119 @@
+body{
+    background-image: url("../about/img/IMG_0043.jpg");
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+
+#opaqueBackground {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.littleM{
+    float: left;
+    margin-top: -5;
+}
+
+.littleM a:hover {
+    background-color: rgba(0, 0, 0,0);
+}
+
+nav {
+    position: fixed; top: 0px;
+    background-color: #2F415E;
+    height: 48px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    z-index: 2;
+}
+
+.list{
+    list-style: none;
+}
+
+a:link, a:visited {
+    color: #FBFBFB;
+    padding: 14.5px 25px;
+    margin-top: -15px;
+    text-decoration: none;
+    float: right;
+}
+a:hover, a:active {
+    background-color: #424242;
+  }
+
+
+.fa-instagram {
+    font-size: 25px;
+    color: aliceblue;
+}
+.title{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    margin-top: 70;
+    /* margin-bottom: 100; */
+    color: aliceblue;
+}
+
+.BioPic img {
+    height: 500px;
+    width: 500px;
+    margin-top: 0px;
+    padding: 0%;
+    margin-left: 200px;
+}
+
+.BioContainer{
+    background-color: rgba(47, 65, 94,0.9);
+    border-radius: 25px;
+    color: aliceblue;
+    text-align: left;
+    font-size: 20px;
+    height: 450px;
+    width: 750px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 25;
+
+}
+.myBio{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+    margin: 25;
+    line-height: 30px;
+    
+}
+
+.container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#instagramLogo {
+    float: none;
+    padding: 3px;
+    background: rgba(0, 0, 0, 0);
+}
+.foot{
+    text-align: center;
+    color: aliceblue;
+    background-color: #2F415E;
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+}
